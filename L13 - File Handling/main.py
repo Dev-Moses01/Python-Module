@@ -8,7 +8,7 @@ moses.close()
 moses = open("moses.txt", "a")
 moses.write("I love solving problems also")
 moses.close()
-#After class project
+#After-class project
 file = open("file.txt", "w")
 file.write("I love python")
 file.close()
