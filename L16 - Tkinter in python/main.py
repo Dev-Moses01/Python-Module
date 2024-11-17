@@ -4,7 +4,7 @@ window.geometry("500x500")
 window.config(bg = "orange")
 window.title("My first try on TK!!!")
 #label widget
-text1 = Label(window, text = "My first game", bg = "orange", fg = "aqua", font=("cursive", 15))
+text1 = Label(window, text = "My first game", bg = "orange", fg = "aqua", font=("monospace", 25))
 text1.pack()
 #button widget
 def onclk():
