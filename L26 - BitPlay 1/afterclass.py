@@ -9,7 +9,6 @@ def find_rightmost_set_bit(num):
     
     return position
 
-# Input from the user
 try:
     number = int(input("Enter a number: "))
     result = find_rightmost_set_bit(number)
