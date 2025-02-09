@@ -29,4 +29,6 @@ INSERT INTO salesman VALUES
 
 SELECT * FROM salesman;
 SELECT name,city FROM salesman;
+SELECT name FROM salesman 
+WHERE city = "Nigeria";
 
